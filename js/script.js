@@ -13,31 +13,34 @@ for (var i = 0; i < 5; i++) {
 
 var arrayUtente = [];
 for (var i = 0; i < 5; i++) {
-  var numeroUtente = prompt("Inserisci un numero")
+  var numeroUtente = parseInt(prompt("Inserisci un numero"));
   arrayUtente.push(numeroUtente);
   console.log(arrayUtente);
 }
+ for (var c = 0; c < numeroCasualePc.length; c++) {
+   if (numeroUtente == numeroCasualePc) {
+     console.log("hai perso");
+   }else {
+     arrayUtente.push(numeroUtente);
+   }
+ }
 
 // Se il numero è presente nella lista dei numeri generati, la partita termina,
 // altrimenti si continua chiedendo all’utente un altro numero.
 
-var arrayAltroNumero =[];
-if (arrayUtente[i] == arrayPc[i]) {
-  console.log("Hai perso");
-}else {
-  var altroNumero = prompt("Inserisci un altro numero");
-  arrayAltroNumero.push(altroNumero);
-  console.log(arrayAltroNumero);
-}
 // var arrayAltroNumero =[];
+// var i = 0;
 // if (arrayUtente[i] == arrayPc[i]) {
 //   console.log("Hai perso");
+// }else {
+//   for (var i = 0; i < 10; i++) {
+//     var altroNumero = prompt("Inserisci un altro numero");
+//     arrayAltroNumero.push(altroNumero);
+//     console.log(arrayAltroNumero);
+//   }
 // }
-// for (var i = 0; i < arrayAltroNumero.length; i++) {
-//   var altroNumero = prompt("Inserisci un altro numero");
-//   arrayAltroNumero.push(altroNumero);
-//   console.log(arrayAltroNumero);
-// }
+
+
 
 // La partita termina quando il giocatore inserisce un numero “vietato” o raggiunge
 //  il numero massimo possibile di numeri consentiti.
