@@ -12,28 +12,29 @@ for (var i = 0; i < 5; i++) {
 
 // L’utente non può inserire più volte lo stesso numero.
 
-var arrayUtente = [];
-
-for (var i = 0; i < 5; i++) {
-  var numeroUtente = parseInt(prompt("Inserisci un numero"));
-  arrayUtente.push(numeroUtente);
-  console.log(arrayUtente);
-}
-
- for (var c = 0; c < numeroCasualePc.length; c++) {
-   if (numeroUtente == numeroCasualePc) {
-     console.log("hai perso");
-   }else {
-     arrayUtente.push(numeroUtente);
-   }for (var i = 0; i < array.length; i++) {
-     array[i]
-   }
- }
+///////////////////PROVA ANDREA////////////////////////////////////////////////
+// var arrayUtente = [];
+//
+// for (var i = 0; i < 5; i++) {
+//   var numeroUtente = parseInt(prompt("Inserisci un numero"));
+//   arrayUtente.push(numeroUtente);
+//   console.log(arrayUtente);
+// }
+//
+//  for (var c = 0; c < numeroCasualePc.length; c++) {
+//    if (numeroUtente == numeroCasualePc) {
+//      console.log("hai perso");
+//    }else {
+//      arrayUtente.push(numeroUtente);
+//    }for (var i = 0; i < array.length; i++) {
+//      array[i]
+//    }
+//  }
 
 // Se il numero è presente nella lista dei numeri generati, la partita termina,
 // altrimenti si continua chiedendo all’utente un altro numero.
 
-// PROVA VECCHIA:
+////////////////////////////// PROVA VECCHIA://////////////////////////////////////////////////////////
 // var arrayAltroNumero =[];
 // var arrayUtente = [];
 // var c = 0;
